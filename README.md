@@ -1,21 +1,24 @@
 # Design-Implementation-of-6T---SRAM-Cell-using-Cadence-EDA-Tools
-Ex No: 01     Design & Implementation of 6T SRAM using Cadence EDA Tools   
+# Ex No: 01     Design & Implementation of 6T SRAM using Cadence EDA Tools   
 
-Aim:
+# Aim:
 To design and implement a 6T SRAM (Static Random-Access Memory) cell using Cadence EDA tools, simulate its functionality, and analyze key performance parameters such as read/write operations, power consumption, and stability to understand its behavior in memory design.
 
-Tools Required:
+# Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
+![image](https://github.com/user-attachments/assets/64ab7557-1553-4378-996c-2e3a56b42575)
 
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+
+
+# S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
 •	virtuoso 
-Procedure for Schematic simulation using Cadence
+# Procedure for Schematic simulation using Cadence: 
 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -27,12 +30,12 @@ iv.	Create the test Cell view.
 v.	Analog simulation by spectre
 
 
-i)	Procedure for Creating New Library.
+# i)	Procedure for Creating New Library.
 •	File –New – Library
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
 •	Enable Attach to an existing technology library, Click OK
 •	Attach the library to the technology library gpdk045.Click OK
-ii)	Create Schematic Cell view.
+# ii)	Create Schematic Cell view.
 •	Go to 1st window i.e virtuoso (CIW)
 •	File-New-Cell view
 •	Setup the new file form
@@ -47,12 +50,13 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
-![IMG-20241019-WA0021](https://github.com/user-attachments/assets/31694272-dca3-40a2-8f86-265f8b0aba2e)
+![image](https://github.com/user-attachments/assets/c84d0b7c-944f-4c0c-8e1e-b29e6a37e9c6)
+
 
 
 
  
-iii)	Creating the Symbol for schematic Cell view
+# iii)	Creating the Symbol for schematic Cell view
 
 •	In the schematic window, execute 
 	Create – Cell view – From Cell view
@@ -76,18 +80,16 @@ Analog simulation by SPECTRE.
 	Execute Output s—to be plotted – Select on Schematic
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
-![IMG-20241019-WA0026](https://github.com/user-attachments/assets/df19d988-37b1-4de9-acb9-4709f3b7474c)
+![image](https://github.com/user-attachments/assets/5f9b3bf3-c6b0-496d-b11d-4c0bb1a37511)
+
 
 
 For Transient Analysis Settings and Output
 
 
-![IMG-20241019-WA0024](https://github.com/user-attachments/assets/40461d9e-0487-4d64-8119-5ccbbf2e4628)
+![image](https://github.com/user-attachments/assets/d6c3bab0-7e81-4017-86da-d94e11e1b917)
 
-![IMG-20241019-WA0023](https://github.com/user-attachments/assets/f7a02f13-935d-4320-b057-9d9bca02af82)
-
-
-Results:
+# Results:
 The design and implementation of the 6T SRAM cell using Cadence EDA tools were successfully achieved. Simulation results validated the correct functionality and performance of the SRAM cell, including stable read/write operations,
 
 
